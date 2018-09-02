@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Use this manifest only for LineageOS v16.0 -->
+
+  <remote name="A6020-pie"
+          fetch="https://github.com/A6020-pie/" />
+
+  <!-- Device Specific Repositories -->
+  <project path="device/lenovo/A6020" name="android_device_lenovo_A6020" remote="A6020-pie" revision="lineage-16.0" />
+  <project path="kernel/lenovo/msm8916" name="android_kernel_lenovo_msm8916" remote="A6020-pie" revision="pie" />
+  <project path="vendor/lenovo" name="android_vendor_lenovo_A6020" remote="A6020-pie" revision="pie" />
+
+  <!-- ROM Specific Repositories -->
+  <project path="hardware/interfaces" name=" platform_hardware_interfaces" remote="A6020-pie" revision="pie" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="A6020-pie" revision="pie" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="A6020-pie" revision="pie" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="A6020-pie" revision ="pie" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="A6020-pie" revision="pie" />
+  <project path="bionic" name="platform_bionic" remote="A6020-pie" revision="pie" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="A6020-pie" revision="pie" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="A6020-pie" revision="pie" />  
+
+  <!-- HALs needed for A6020 (msm8916) -->
+  <project path="hardware/qcom/audio-caf/msm8916" name="platform_hardware_qcom_audio" remote="A6020-pie" revision="pie-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8916" name="platform_hardware_qcom_media" remote="A6020-pie" revision="pie-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8916" name="platform_hardware_qcom_display" remote="A6020-pie" revision="pie-caf-8916" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="A6020-pie" revision="pie-caf" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="A6020-pie" revision="pie-caf" />
+
+</manifest>
