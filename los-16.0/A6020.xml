@@ -9,15 +9,13 @@
   <!-- Device Specific Repositories -->
   
   <project path="device/lenovo/A6020" name="android_device_lenovo_A6020" remote="A6020-pie" revision="pie" />
-
   <project path="kernel/lenovo/msm8916" name="android_kernel_lenovo_msm8916" remote="A6020-pie" revision="pie" />
-
   <project path="vendor/lenovo" name="android_vendor_lenovo_A6020" remote="A6020-pie" revision="pie" />
 
   <!-- ROM Specific Repositories -->
   
   <remove-project name="platform/frameworks/hardware/interfaces" />
-  <project path="frameworks/hardware/interfaces" name="platform_hardware_interfaces" remote="A6020-pie" revision="pie" />
+  <project path="frameworks/hardware/interfaces" name="platform_frameworks_hardware_interfaces" remote="A6020-pie" revision="pie" />
   
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="A6020-pie" revision="pie" />
   
