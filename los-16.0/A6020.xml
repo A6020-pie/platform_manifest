@@ -7,25 +7,57 @@
           fetch="https://github.com/A6020-pie/" />
 
   <!-- Device Specific Repositories -->
+  
+  <remove-project name="device/lenovo/A6020"
   <project path="device/lenovo/A6020" name="android_device_lenovo_A6020" remote="A6020-pie" revision="lineage-16.0" />
+  
+  <remove-project name="kernel/lenovo/msm8916"
   <project path="kernel/lenovo/msm8916" name="android_kernel_lenovo_msm8916" remote="A6020-pie" revision="pie" />
+  
+  <remove-project name="vendor/lenovo"
   <project path="vendor/lenovo" name="android_vendor_lenovo_A6020" remote="A6020-pie" revision="pie" />
 
   <!-- ROM Specific Repositories -->
+  
+  <remove-project name="hardware/interfaces" />
   <project path="hardware/interfaces" name=" platform_hardware_interfaces" remote="A6020-pie" revision="pie" />
+  
+  <remove-project name="vendor/qcom/opensource/dataservices" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="A6020-pie" revision="pie" />
+  
+  <remove-project name="hardware/libhardware" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="A6020-pie" revision="pie" />
+  
+  <remove-project name="external/tinycompress" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="A6020-pie" revision ="pie" />
+  
+  <remove-project name="hardware/libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="A6020-pie" revision="pie" />
+  
+  <remove-project name="bionic" />
   <project path="bionic" name="platform_bionic" remote="A6020-pie" revision="pie" />
+  
+  <remove-project name="frameworks/av" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="A6020-pie" revision="pie" />
+  
+  <remove-project name="frameworks/native" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="A6020-pie" revision="pie" />  
 
   <!-- HALs needed for A6020 (msm8916) -->
+  
+  <remove-project name="hardware/qcom/audio-caf/msm8916" />
   <project path="hardware/qcom/audio-caf/msm8916" name="platform_hardware_qcom_audio" remote="A6020-pie" revision="pie-caf-8916" />
+  
+  <remove-project name="hardware/qcom/media-caf/msm8916" />
   <project path="hardware/qcom/media-caf/msm8916" name="platform_hardware_qcom_media" remote="A6020-pie" revision="pie-caf-8916" />
+  
+  <remove-project name="hardware/qcom/display-caf/msm8916" />
   <project path="hardware/qcom/display-caf/msm8916" name="platform_hardware_qcom_display" remote="A6020-pie" revision="pie-caf-8916" />
+  
+  <remove-project name="hardware/qcom/wlan-caf" />
   <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="A6020-pie" revision="pie-caf" />
+  
+  <remove-project name="hardware/qcom/bt-caf" />
   <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="A6020-pie" revision="pie-caf" />
 
 </manifest>
