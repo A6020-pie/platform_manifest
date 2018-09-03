@@ -15,7 +15,7 @@
   <!-- ROM Specific Repositories -->
   
   <remove-project name="LineageOS/android_hardware_interfaces" />
-  <project path="hardware/interfaces" name="platform_frameworks_hardware_interfaces" remote="A6020-pie" revision="pie" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="A6020-pie" revision="pie" />
   
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="A6020-pie" revision="pie" />
   
