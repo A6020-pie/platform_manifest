@@ -39,13 +39,13 @@
 
   <!-- HALs needed for A6020 (msm8916) -->
 
-  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8916" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" />
   <project path="hardware/qcom/audio-caf/msm8916" name="platform_hardware_qcom_audio" remote="A6020-pie" revision="pie-caf-8916" />
   
-  <remove-project name="LineageOS/android_hardware_qcom_media" revision="lineage-16.0-caf-8916" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" />
   <project path="hardware/qcom/media-caf/msm8916" name="platform_hardware_qcom_media" remote="A6020-pie" revision="pie-caf-8916" />
 
-  <remove-project name="LineageOS/android_hardware_qcom_display" revision="lineage-16.0-caf-8916" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" />
   <project path="hardware/qcom/display-caf/msm8916" name="platform_hardware_qcom_display" remote="A6020-pie" revision="pie-caf-8916" />
   
   <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="A6020-pie" revision="pie-caf" />
