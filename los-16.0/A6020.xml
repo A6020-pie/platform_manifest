@@ -8,7 +8,7 @@
 
   <!-- Device Specific Repositories -->
   
-  <project path="device/lenovo/A6020" name="android_device_lenovo_A6020" remote="A6020-pie" revision="pie" />
+  <project path="device/lenovo/A6020" name="android_device_lenovo_A6020" remote="A6020-pie" revision="lineage-16.0" />
   <project path="kernel/lenovo/msm8916" name="android_kernel_lenovo_msm8916" remote="A6020-pie" revision="pie" />
   <project path="vendor/lenovo" name="android_vendor_lenovo_A6020" remote="A6020-pie" revision="pie" />
 
